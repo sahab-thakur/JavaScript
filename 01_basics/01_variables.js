@@ -1,5 +1,6 @@
 const accountId= 869662
-let accountName = "Sahab Singh Thakur"
+let accountEmail = "Sahab@gmail.com"
+
 var accountPassword = "12345"
 accountCity = "Banglore"
 
