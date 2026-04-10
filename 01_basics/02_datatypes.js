@@ -18,7 +18,10 @@ let isLoggedIn = false
 
 //object
 
-console.log(typeof "sahab");
-console.log('====================================');
-console.log(typeof age);
-console.log('====================================');
+// console.log(typeof "sahab");
+// console.log('====================================');
+// console.log(typeof age);
+// console.log('====================================');
+
+console.log(typeof null);
+console.log(typeof undefined);
