@@ -16,3 +16,5 @@ let isLoggedIn = false
 // undefined => value is not assigned to a variable
 // symbol => unique identifier
 
+//object
+
