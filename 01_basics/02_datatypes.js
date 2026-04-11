@@ -18,10 +18,8 @@ let isLoggedIn = false
 
 //object
 
-// console.log(typeof "sahab");
-// console.log('====================================');
-// console.log(typeof age);
-// console.log('====================================');
+// console.log(typeof "sahab");  //type = string
+// console.log(typeof age); //type = number
 
-console.log(typeof null);
-console.log(typeof undefined);
+console.log(typeof null); //type = object but it is a bug in js because null is not an object it is a primitive value that represents nothing
+console.log(typeof undefined); //type = undefined
