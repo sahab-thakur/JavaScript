@@ -15,6 +15,14 @@ let valueInNumber = Number(score)
 //null => 0
 undefined => NaN
 
-let isLoggedIn = 1
+let isLoggedIn = "sahab"
+
 let booleanisLoggedIn = Boolean(isLoggedIn)
 console.log(booleanisLoggedIn);
+
+//notes
+// "" => false
+// " " => true
+// "sahab" => true
+// 0 => false
+// 1 => true
