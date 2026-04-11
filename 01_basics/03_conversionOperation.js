@@ -1,4 +1,4 @@
-let score = 33
+let score = "Sahab"
 
 // console.log(typeof score);
 // console.log(typeof (score));
