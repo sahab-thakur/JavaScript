@@ -38,4 +38,10 @@ console.log(typeof stringNumber);
 // 33 => "33"
 
 
+//*******************Operations***********************
+
+let value = 3
+let negValue = -value;
+
+console.log(negValue);
 
