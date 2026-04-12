@@ -54,7 +54,14 @@ let negValue = -value;
 
 // console.log("2" + "2");
 
-console.log(2 + "2");
+console.log("2" + 2);
+
+let str1 = "Hello"
+let str2 = "Sahab"
+
+let str3 =  str1 + str2;
+
+consloe.log(str3);
 
 
 
