@@ -77,3 +77,25 @@ let yourName = myName;    //yourName is stored in stack memory and it is a copy 
 yourName = "Roman";       //yourName is changed to "Roman" but myName is still "Sahab" 
                           // because they are stored in stack memory and they are independent of each other
 
+console.log(myName);
+console.log(yourName);
+
+
+const userOne ={
+    email : "sahab@eg.com", 
+    upi : 'sahab@upi',
+    age : 24
+}
+  
+const userTwo = userOne;          //userTwo is stored in stack memory and it is a reference to userOne which is stored in heap memory
+
+userTwo.email = "roman@eg.com";   //userTwo is changed to "roman@eg.com" and userOne.email is also changed to "roman@eg.com"
+
+console.log(userOne.email); 
+console.log(userTwo.email); 
+
+
+
+
+
+
