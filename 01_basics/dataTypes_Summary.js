@@ -10,6 +10,8 @@
 // 7. BigInt => 1234567890123456789012345678901234567890n
 
 
+
+
 const score = 100;  //number
 const scoreValue = 100.3; //number
 
@@ -51,7 +53,7 @@ const myfunction = function(){
 console.log (typeof bigNumber); //bigint
 console.log(typeof heros); //object
 console.log(typeof myObj); //object
-console.log(typeof myfunction); //function
+console.log(typeof myfunction); //function  //object function is a special type of object in JavaScript
 
-
-
+console.log(typeof null); //object  //this is a bug in JavaScript, null should be of type null but it is of type object  
+console.log(myObj);
