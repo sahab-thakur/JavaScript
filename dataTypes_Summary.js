@@ -35,3 +35,23 @@ console.log(id !== anotherId); //true
 // 1. Array => [1, 2, 3, 4, 5], ["Hello", "World"], [1, "Hello", true]
 // 2. Object => { name: "John", age: 30, city: "New York" }
 // 3. Function => function add(a, b) { return a + b; }
+
+const heros = ["Superman", "Batman", "Wonder Woman"]; //array
+
+const myObj ={
+    name : "Sahab",
+    age : 24,
+}
+
+const myfunction = function(){
+    console.log("Hello World!");
+}
+
+
+console.log (typeof bigNumber); //bigint
+console.log(typeof heros); //object
+console.log(typeof myObj); //object
+console.log(typeof myfunction); //function
+
+
+
