@@ -10,9 +10,9 @@
 // 7. BigInt => 1234567890123456789012345678901234567890n
 
 
-//Non primitive
+//Refrerence (Non primitive)
+
 // Array, objects, Functions
 // 1. Array => [1, 2, 3, 4, 5], ["Hello", "World"], [1, "Hello", true]
 // 2. Object => { name: "John", age: 30, city: "New York" }
 // 3. Function => function add(a, b) { return a + b; }
-
