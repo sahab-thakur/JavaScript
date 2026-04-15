@@ -21,9 +21,10 @@ const id = Symbol("123"); //symbol
 const anotherId = Symbol("123"); //symbol
 
 console.log(id === anotherId); //false
-console.log(id !=== anotherId); //true
+console.log(id !== anotherId); //true
 
-const bigNumber = 1234567890123456789012345678901234567890n; //bigint
+ const bigNumber = 1234567890123456789012345678901234567890n; //bigint
+
 
 
 
