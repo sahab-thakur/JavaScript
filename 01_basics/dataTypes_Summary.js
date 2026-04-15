@@ -25,7 +25,7 @@ const anotherId = Symbol("123"); //symbol
 console.log(id === anotherId); //false
 console.log(id !== anotherId); //true
 
- const bigNumber = 1234567890123456789012345678901234567890n; //bigint
+const bigNumber = 1234567890123456789012345678901234567890n; //bigint
 
 
 
@@ -40,20 +40,40 @@ console.log(id !== anotherId); //true
 
 const heros = ["Superman", "Batman", "Wonder Woman"]; //array
 
-const myObj ={
-    name : "Sahab",
-    age : 24,
+const myObj = {
+    name: "Sahab",
+    age: 24,
 }
 
-const myfunction = function(){
+const myfunction = function () {
     console.log("Hello World!");
 }
 
 
-console.log (typeof bigNumber); //bigint
+console.log(typeof bigNumber); //bigint
 console.log(typeof heros); //object
 console.log(typeof myObj); //object
 console.log(typeof myfunction); //function  //object function is a special type of object in JavaScript
 
 console.log(typeof null); //object  //this is a bug in JavaScript, null should be of type null but it is of type object  
 console.log(myObj);
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// STACK & HEAP MEMORY
+
+//  Stack memory = Primitive data types are stored in stack memory
+// Heap memory = Reference data types are stored in heap memory
+
+// Stack memory is faster than heap memory
+// Primitive data types are immutable, meaning they cannot be changed after they are created
+// Reference data types are mutable, meaning they can be changed after they are created
+
+
+let myName = "Sahab";     //myName is stored in stack memory
+let yourName = myName;    //yourName is stored in stack memory and it is a copy of myName
+yourName = "Roman";       //yourName is changed to "Roman" but myName is still "Sahab" 
+                          // because they are stored in stack memory and they are independent of each other
+
