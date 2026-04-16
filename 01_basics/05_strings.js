@@ -18,8 +18,11 @@ console.log(gameName.length); //length is a property of string objects, it gives
 console.log(gameName.toLowerCase); //toLowerCase is a method of string objects, it converts the string to lowercase, in this case it will give us "bgmi" because "BGMI" is in uppercase. we need to call the method using parentheses like gameName.toLowerCase() to get the result. without parentheses it will give us the function definition of the method.
 console.log(gameName.toUpperCase()); //toUpperCase is a method of string objects, it converts the string to uppercase, in this case it will give us "BGMI" because "BGMI" is already in uppercase.
 console.log(gameName.charAt(2)); //charAt is a method of string objects, it gives us the character at the specified index, in this case it will give us "M" because "BGMI" has "M" at index 2.
+console.log(gameName.indexOf("B")); //indexOf is a method of string objects, it gives us the index of the first occurrence of the specified character, in this case it will give us 0 because "B" is at index 0 in "BGMI".
 
-);
+const newString = gameName.substring(0,3); //substring is a method of string objects, it gives us a substring of the string from the specified start index to the specified end index, in this case it will give us "BGMI" because we are taking the substring from index 0 to index 4 (not inclusive).
+console.log(newString); //BGMI
+
 
 
 
