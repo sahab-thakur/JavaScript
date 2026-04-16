@@ -21,8 +21,10 @@ console.log(gameName.charAt(2)); //charAt is a method of string objects, it give
 console.log(gameName.indexOf("B")); //indexOf is a method of string objects, it gives us the index of the first occurrence of the specified character, in this case it will give us 0 because "B" is at index 0 in "BGMI".
 
 const newString = gameName.substring(0,3); //substring is a method of string objects, it gives us a substring of the string from the specified start index to the specified end index, in this case it will give us "BGMI" because we are taking the substring from index 0 to index 4 (not inclusive).
-console.log(newString); //BGMI
+console.log(newString); //BGMI is the original string, newString is the substring of gameName from index 0 to index 3 (not inclusive), so it will give us "BGM".
 
+const anotherString = gameName.slice((-4, 2));
+console.log(anotherString);
 
 
 
