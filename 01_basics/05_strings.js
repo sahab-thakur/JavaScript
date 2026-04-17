@@ -45,5 +45,7 @@ console.log(url.replace('$20', '-')); //replace is a method of string objects, i
 console.log(url.includes('sahab')); //includes is a method of string objects, it checks if the string contains the specified value, in this case it will give us true because "Sahab" is present in the string "https://www.sahab.com/sahab%20singh".
 
 
+const stringOne = "Sahab-Singh-Thakur";
+console.log(stringOne.split("-")); //split is a method of string objects, it splits the string into an array of substrings based on the specified separator, in this case it will give us ["Sahab", "Singh", "Thakur"] because we are splitting the string based on the separator "-" which means we are splitting the string into individual substrings. if we take split(" ") it will split the string based on the separator " " which means it will split the string into words. if we take split("i") it will split the string based on the separator "i" which means it will split the string into substrings based on the character "i"
 
 
