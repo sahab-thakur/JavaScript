@@ -23,8 +23,13 @@ console.log(gameName.indexOf("B")); //indexOf is a method of string objects, it 
 const newString = gameName.substring(0,3); //substring is a method of string objects, it gives us a substring of the string from the specified start index to the specified end index, in this case it will give us "BGMI" because we are taking the substring from index 0 to index 4 (not inclusive).
 console.log(newString); //BGMI is the original string, newString is the substring of gameName from index 0 to index 3 (not inclusive), so it will give us "BGM".
 
-const anotherString = gameName.slice((-4, 2));
+const anotherString = gameName.slice((-4, 2)); // BGMI slice is a method of string objects, it gives us a substring of the string from the specified start index to the specified end index, in this case it will give us "BG" because we are taking the substring from index -4 to index 2 (not inclusive). slice can also take negative index which means it will start from the end of the string, so index -4 will give us the first character of the string which is "B", and index 2 will give us the third character of the string which is "G". so it will give us "BG". if we take slice(0, -1) it will give us "BGM" because it will take the substring from index 0 to index -1 (not inclusive) which means it will take all characters except the last character of the string. if we take slice(-3) it will give us "GMI" because it will take the substring from index -3 to the end of the string which means it will take the last 3 characters of the string.
 console.log(anotherString);
+
+
+const anotherStringOne = "    Sahab         "
+console.log(anotherStringOne); 
+console.log(anotherStringOne.trim()); // this 
 
 
 
