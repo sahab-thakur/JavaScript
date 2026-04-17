@@ -42,7 +42,7 @@ const url = "https://www.sahab.com/sahab%20singh"; //split is a method of string
 
 console.log(url.replace('$20', '-')); //replace is a method of string objects, it replaces the specified value with the specified new value in the string, in this case it will give us "https://www.sahab.com/sahab-singh" because we are replacing the value "%20" with the value "-" in the string.
 
-console.log(url.inclides('Sahab')); //includes is a method of string objects, it checks if the string contains the specified value, in this case it will give us true because "Sahab" is present in the string "https://www.sahab.com/sahab%20singh".
+console.log(url.includes('Sahab')); //includes is a method of string objects, it checks if the string contains the specified value, in this case it will give us true because "Sahab" is present in the string "https://www.sahab.com/sahab%20singh".
 
 
 
