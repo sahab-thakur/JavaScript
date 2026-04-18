@@ -13,3 +13,6 @@ console.log(balance.toFixed(2)); // toFixed() is a method of number objects, it 
 const numberOne = 1123.89666
 
 console.log(numberOne.toPrecision(3)); // toPrecision() is a method of number objects, it formats the number to a specific number of significant digits, in this case it will give us "23.9" because we are formatting the number to 3 significant digits. if we take toPrecision(2) it will give us "24" because it will round the number to 2 significant digits. if we take toPrecision(4) it will give us "23.90" because it will format the number to 4 significant digits.
+
+const hundreds = 1000000000; 
+console.log(hundreds.toLocaleString('en-IN')); // toLocaleString() is a method of number objects, it formats the number according to the specified locale, in this case it will give us "1,00,00,00,000" because we are formatting the number according to the Indian locale. if we take toLocaleString('en-US') it will give us "1,000,000,000" because we are formatting the number according to the US locale. if we take toLocaleString('de-DE') it will give us "
