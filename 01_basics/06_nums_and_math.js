@@ -2,3 +2,9 @@ const score = 400;
 
 const balance = new Number(100); // this is a number object, it is created using the Number constructor function, it is an object that wraps a primitive number value. it has properties and methods that can be used to manipulate the number value. for example, we can use the toFixed() method to format the number to a specific number of decimal places.
 console.log(balance); // Number {100} is the number object that wraps the primitive number value 100. it has properties and methods that can be used to manipulate the number value. for example, we can use the toFixed() method to format the number to a specific number of decimal places.
+
+
+console.log(balance.toString()); // toString() is a method of number objects, it converts the number to a string, in this case it will give us "100" because the primitive number value of the balance object is 100. we can also use the String() function to convert a number to a string, for example String(balance) will also give us "100".
+
+console.log(balance.toString().length); // toString() is a method of number objects, it converts the number to a string, in this case it will give us "100" because the primitive number value of the balance object is 100. we can also use the String() function to convert a number to a string, for example String(balance) will also give us "100". length is a property of string objects, it gives us the length of the string, in this case it will give us 3 because "100" has 3 characters.
+console.log(balance.toFixed(2)); // toFixed() is a method of number objects, it formats the number to a specific number of decimal places, in this case it will give us "100.00" because we are formatting the number to 2 decimal places. if we take toFixed(0) it will give us "100" because it will round the number to the nearest integer. if we take toFixed(1) it will give us "100.0" because it will format the number to 1 decimal place.
