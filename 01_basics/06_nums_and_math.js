@@ -10,6 +10,7 @@ console.log(balance.toString().length); // toString() is a method of number obje
 console.log(balance.toFixed(2)); // toFixed() is a method of number objects, it formats the number to a specific number of decimal places, in this case it will give us "100.00" because we are formatting the number to 2 decimal places. if we take toFixed(0) it will give us "100" because it will round the number to the nearest integer. if we take toFixed(1) it will give us "100.0" because it will format the number to 1 decimal place.
 
 
+
 const numberOne = 1123.89666 
 
 
