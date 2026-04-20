@@ -36,7 +36,13 @@ console.log(Math);
 console.log(Math.random()); // random() is a method of the Math object, it returns a random number between 0 (inclusive) and 1 (exclusive), in this case it will give us a random number between 0 and 1. if we take Math.random() * 10 it will give us a random number between 0 and 10. if we take Math.random() * 100 it will give us a random number between 0 and 100. if we take Math.random() * 1000 it will give us a random number between 0 and 1000. if we take Math.random() * 1000000 it will give us a random number between 0 and 1000000. if we take Math.random() * 1000000000 it will give us a random number between 0 and 1000000000.
 console.log(Math.random()*10); // this will give us a random number between 0 and 10. if we take Math.random() * 100 it will give us a random number between 0 and 100. if we take Math.random() * 1000 it will give us a random number between 0 and 1000. if we take Math.random() * 1000000 it will give us a random number between 0 and 1000000. if we take Math.random() * 1000000000 it will give us a random number between 0 and 1000000000.
 console.log((Math.random()*10) + 1); // this will give us a random number between 1 and 11. if we take (Math.random() * 10) + 1 it will give us a random number between 1 and 11. if we take (Math.random() * 100) + 1 it will give us a random number between 1 and 101. if we take (Math.random() * 1000) + 1 it will give us a random number between 1 and 1001. if we take (Math.random() * 1000000) + 1 it will give us a random number between 1 and 1000001. if we take (Math.random() * 1000000000) + 1 it will give us a random number between 1 and 1000000001.
+console.log(Math.floor (Math.random()*10) + 1); // this will give us a random integer between 1 and 10. if we take Math.floor((Math.random() * 10) + 1) it will give us a random integer between 1 and 10. if we take Math.floor((Math.random() * 100) + 1) it will give us a random integer between 1 and 100. if we take Math.floor((Math.random() * 1000) + 1) it will give us a random integer between 1 and 1000. if we take Math.floor((Math.random() * 1000000) + 1) it will give us a random integer between 1 and 1000000. if we take Math.floor((Math.random() * 1000000000) + 1) it will give us a random integer between 1 and 1000000000.
 
+
+const min = 10;
+const max = 20;
+
+Math.random()
 
 
 
