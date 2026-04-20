@@ -42,7 +42,7 @@ console.log(Math.floor (Math.random()*10) + 1); // this will give us a random in
 const min = 10;
 const max = 20;
 
-Math.random()
+console.log(Math.floor(Math.random() * (max-min +1) + min)); // this will give us a random integer between 10 and 20. if we take Math.floor(Math.random() * (max - min + 1) + min) it will give us a random integer between 10 and 20. if we take Math.floor(Math.random() * (max - min + 1) + min) it will give us a random integer between 10 and 20. if we take Math.floor(Math.random() * (max - min + 1) + min) it will give us a random integer between 10 and 20. if we take Math.floor(Math.random() * (max - min + 1) + min) it will give us a random integer between 10 and 20. if we take Math.floor(Math.random() * (max - min + 1) + min) it will give us a random integer between 10 and 20.
 
 
 
