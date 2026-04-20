@@ -23,17 +23,19 @@ const hundreds = 1000000000;
 //++++++++++++++++++MATHS++++++++++++++++++++++
 
 console.log(Math);
-console.log(Math.abs(-4)); // abs() is a method of the Math object, it returns the absolute value of a number, in this case it will give us 4 because the absolute value of -4 is 4. if we take Math.abs(4) it will also give us 4 because the absolute value of 4 is 4. if we take Math.abs(0) it will give us 0 because the absolute value of 0 is 0.
-console.log(Math.round(4.6)); // round() is a method of the Math object, it rounds a number to the nearest integer, in this case it will give us 5 because 4.6 is closer to 5 than it is to 4. if we take Math.round(4.4) it will give us 4 because 4.4 is closer to 4 than it is to 5. if we take Math.round(4.5) it will give us 5 because 4.5 is exactly in the middle of 4 and 5, and in this case it will round up to the nearest integer.
-console.log(Math.ceil(4.2)); // ceil() is a method of the Math object, it rounds a number up to the nearest integer, in this case it will give us 5 because 4.2 is rounded up to 5. if we take Math.ceil(4.8) it will also give us 5 because 4.8 is rounded up to 5. if we take Math.ceil(4) it will give us 4 because 4 is already an integer and it is not rounded up.
-console.log(Math.floor(4.9)); // floor() is a method of the Math object, it rounds a number down to the nearest integer, in this case it will give us 4 because 4.9 is rounded down to 4. if we take Math.floor(4.2) it will also give us 4 because 4.2 is rounded down to 4. if we take Math.floor(4) it will give us 4 because 4 is already an integer and it is not rounded down.
-console.log(Math.min(2,4,6,8,9,11,15,-4)); // min() is a method of the Math object, it returns the smallest of zero or more numbers, in this case it will give us -4 because -4 is the smallest number among 2, 4, 6, 8, 9, 11, 15 and -4. if we take Math.min(2,4,6) it will give us 2 because 2 is the smallest number among 2, 4 and 6. if we take Math.min(-1,-5,-3) it will give us -5 because -5 is the smallest number among -1, -5 and -3.
-console.log(Math.max(1,3,5,6,8,9,7,4,1,5,8,9,6,-9,-8,-2,-1));
+// console.log(Math.abs(-4)); // abs() is a method of the Math object, it returns the absolute value of a number, in this case it will give us 4 because the absolute value of -4 is 4. if we take Math.abs(4) it will also give us 4 because the absolute value of 4 is 4. if we take Math.abs(0) it will give us 0 because the absolute value of 0 is 0.
+// console.log(Math.round(4.6)); // round() is a method of the Math object, it rounds a number to the nearest integer, in this case it will give us 5 because 4.6 is closer to 5 than it is to 4. if we take Math.round(4.4) it will give us 4 because 4.4 is closer to 4 than it is to 5. if we take Math.round(4.5) it will give us 5 because 4.5 is exactly in the middle of 4 and 5, and in this case it will round up to the nearest integer.
+// console.log(Math.ceil(4.2)); // ceil() is a method of the Math object, it rounds a number up to the nearest integer, in this case it will give us 5 because 4.2 is rounded up to 5. if we take Math.ceil(4.8) it will also give us 5 because 4.8 is rounded up to 5. if we take Math.ceil(4) it will give us 4 because 4 is already an integer and it is not rounded up.
+// console.log(Math.floor(4.9)); // floor() is a method of the Math object, it rounds a number down to the nearest integer, in this case it will give us 4 because 4.9 is rounded down to 4. if we take Math.floor(4.2) it will also give us 4 because 4.2 is rounded down to 4. if we take Math.floor(4) it will give us 4 because 4 is already an integer and it is not rounded down.
+// console.log(Math.min(2,4,6,8,9,11,15,-4)); // min() is a method of the Math object, it returns the smallest of zero or more numbers, in this case it will give us -4 because -4 is the smallest number among 2, 4, 6, 8, 9, 11, 15 and -4. if we take Math.min(2,4,6) it will give us 2 because 2 is the smallest number among 2, 4 and 6. if we take Math.min(-1,-5,-3) it will give us -5 because -5 is the smallest number among -1, -5 and -3.
+// console.log(Math.max(1,3,5,6,8,9,7,4,1,5,8,9,6,-9,-8,-2,-1));
 
 //Math.random
 
 
-console.log(Math.random());
+console.log(Math.random()); // random() is a method of the Math object, it returns a random number between 0 (inclusive) and 1 (exclusive), in this case it will give us a random number between 0 and 1. if we take Math.random() * 10 it will give us a random number between 0 and 10. if we take Math.random() * 100 it will give us a random number between 0 and 100. if we take Math.random() * 1000 it will give us a random number between 0 and 1000. if we take Math.random() * 1000000 it will give us a random number between 0 and 1000000. if we take Math.random() * 1000000000 it will give us a random number between 0 and 1000000000.
+console.log(Math.random()*10); // this will give us a random number between 0 and 10. if we take Math.random() * 100 it will give us a random number between 0 and 100. if we take Math.random() * 1000 it will give us a random number between 0 and 1000. if we take Math.random() * 1000000 it will give us a random number between 0 and 1000000. if we take Math.random() * 1000000000 it will give us a random number between 0 and 1000000000.
+
 
 
 
