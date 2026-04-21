@@ -42,6 +42,15 @@ let myCreatedDate = new Date("01-14-2001");
 // if we take new Date(2001, 11, 25) it will give us a date object with the date "Tue Dec 25 2001 00:00:00 GMT+0530 (India Standard Time)" because we are creating a date object with the date "Tue Dec 25 2001". if we take new Date(2001, 5, 8, 12, 30, 45) it will give us a date object with the date "Fri Jun 08 2001 12:30:45 GMT+0530 (India Standard Time)" because we are creating a date object with the date "Fri Jun 08 2001 12:30:45".;
 console.log(myCreatedDate.toLocaleString());
 
+console.log('====================================');
+
+let myTimeStamp = Date.now(); // this will give us the current timestamp in milliseconds, in this case it will give us a number like 1624041600000 because we are getting the current timestamp in milliseconds. if we take Date.now() it will give us the current timestamp in milliseconds, in this case it will give us a number like 1624041600000 because we are getting the current timestamp in milliseconds.
+console.log(myTimeStamp); // this will give us the current timestamp in milliseconds, in this case it will give us a number like 1624041600000 because we are getting the current timestamp in milliseconds. if we take Date.now() it will give us the current timestamp in milliseconds, in this case it will give us a number like 1624041600000 because we are getting the current timestamp in milliseconds.
+console.log(myCreatedDate.getTime()); // this will give us the timestamp of the date object in milliseconds, in this case it will give us a number like 982233600000 because we are getting the timestamp of the date object in milliseconds. if we take myCreatedDate.getTime() it will give us the timestamp of the date object in milliseconds, in this case it will give us a number like 982233600000 because we are getting the timestamp of the date object in milliseconds.
+console.log(Math.floor(Date.now()/1000));
+
+
+
 
 
 
