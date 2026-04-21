@@ -3,6 +3,8 @@
 
 let myDate = new Date();
 console.log(myDate);
+console.log(typeof myDate);
+
 
 console.log(myDate.toString()); 
 // toString() is a method of date objects, it converts the date to a string, in this case it will give us a string representation of the date in the format "Wed Jun 19 2024 12:00:00 GMT+0530 (India Standard Time)". 
