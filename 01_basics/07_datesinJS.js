@@ -35,8 +35,11 @@ console.log(myDate.toTimeString()); // this method will give us a string represe
 // if we take myDate.toTimeString() it will also give us "12:00:00 PM GMT+0530 (India Standard Time)" because we are converting the time to a string in the format "12:00:00 PM GMT+0530 (India Standard Time)".
 
 
-let myCreatedDate = new Date(2001, 0, 8); 
-console.log(myCreatedDate.toDateString());
+// let myCreatedDate = new Date(2001, 0, 8); 
+
+let myCreatedDate = new Date(2001, 5, 8, 12, 30, 45); // this will give us a date object with the date "Fri Jun 08 2001 12:30:45 GMT+0530 (India Standard Time)". if we take new Date(2001, 0, 8) it will give us a date object with the date "Mon Jan 08 2001 00:00:00 GMT+0530 (India Standard Time)" because we are creating a date object with the date "Mon Jan 08 2001".
+// if we take new Date(2001, 11, 25) it will give us a date object with the date "Tue Dec 25 2001 00:00:00 GMT+0530 (India Standard Time)" because we are creating a date object with the date "Tue Dec 25 2001". if we take new Date(2001, 5, 8, 12, 30, 45) it will give us a date object with the date "Fri Jun 08 2001 12:30:45 GMT+0530 (India Standard Time)" because we are creating a date object with the date "Fri Jun 08 2001 12:30:45".;
+console.log(myCreatedDate.toLocaleString());
 
 
 
