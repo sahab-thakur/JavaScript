@@ -35,5 +35,9 @@ console.log(myDate.toTimeString()); // this method will give us a string represe
 // if we take myDate.toTimeString() it will also give us "12:00:00 PM GMT+0530 (India Standard Time)" because we are converting the time to a string in the format "12:00:00 PM GMT+0530 (India Standard Time)".
 
 
+let myCreatedDate = new Date(2001, 0, 8); 
+console.log(myCreatedDate.toDateString());
+
+
 
 
