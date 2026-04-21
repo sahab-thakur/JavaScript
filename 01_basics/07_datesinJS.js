@@ -28,6 +28,9 @@ console.log(myDate.toLocaleString()); // using this method we can get the date a
 // if we take myDate.toLocaleString('en-GB') it will give us "19/06/2024, 12:00:00" because we are converting the date to a string in the format "19/06/2024, 12:00:00". if we take myDate.toLocaleString('de-DE') it will give us "19.6.2024, 12:00:00" 
 // because we are converting the date to a string in the format "19.6.2024, 12:00:00".
 
+console.log(myDate.toTimeString()); // this method will give us a string representation of the time in the format "12:00:00 PM GMT+0530 (India Standard Time)". if we take myDate.toTimeString() it will give us "12:00:00 PM GMT+0530 (India Standard Time)" 
+// because we are converting the time to a string in the format "12:00:00 PM GMT+0530 (India Standard Time)".
+// if we take myDate.toTimeString() it will also give us "12:00:00 PM GMT+0530 (India Standard Time)" because we are converting the time to a string in the format "12:00:00 PM GMT+0530 (India Standard Time)".
 
 
 
