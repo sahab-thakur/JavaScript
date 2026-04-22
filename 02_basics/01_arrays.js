@@ -19,9 +19,23 @@ console.log(arr);
 // console.log(arr.includes(9));
 // console.log(arr.indexOf(3));
 
-const newArr = arr.join()
+// const newArr = arr.join()
 
-console.log(arr);
+// console.log(arr);
 
-console.log(newArr);
+// console.log(newArr);
+
+
+
+
+//slice , splice
+
+console.log("a", arr);
+
+const myn1 =arr.slice(2,4);
+
+console.log(myn1);
+console.log("b", arr);
+
+
 
