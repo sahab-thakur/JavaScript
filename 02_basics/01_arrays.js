@@ -6,7 +6,6 @@ const myArr = ["she", "he", "it", "we"]
 const myArr2= new Array("she", "he", "it", "we")
 // console.log(arr);
 
-
 //Array methods
 
 // arr.push(6)
