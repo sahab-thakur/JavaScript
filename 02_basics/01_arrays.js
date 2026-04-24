@@ -33,7 +33,7 @@ const myArr2= new Array("she", "he", "it", "we")
 //Slice
 console.log("A", arr);
 
-const myn1 =arr.slice(1,3);
+const myn1 =arr.slice(1,3); //1 is the starting index and 3 is the ending index but it will not include the element at index 3
 
 console.log(myn1); //[1,2]
 
