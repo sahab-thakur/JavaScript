@@ -39,7 +39,7 @@ console.log(myn1); //[1,2]
 
 // Splice
 console.log("B", arr);
-const myn2 = arr.splice(1, 3);
+const myn2 = arr.splice(1, 3); //1 is the index and 3 is the number of elements to be removed
 
 console.log("C", arr);
 
