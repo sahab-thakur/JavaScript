@@ -35,7 +35,7 @@ console.log("A", arr);
 
 const myn1 =arr.slice(1,3);
 
-console.log(myn1);
+console.log(myn1); //[1,2]
 
 // Splice
 console.log("B", arr);
