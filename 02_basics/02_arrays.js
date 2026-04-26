@@ -11,4 +11,5 @@ const allHeros=marvelHeroes.concat(dcHeroes); //concat does not modify the origi
 
  console.log(allHeros); //["Ironman", "Captain America", "Thor", "Hulk", "Black Widow", ["Superman", "Batman", "Flash"]]
 
+
  
