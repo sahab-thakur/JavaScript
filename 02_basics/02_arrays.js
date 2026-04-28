@@ -9,10 +9,12 @@ const dcHeroes = ["Superman", "Batman", "Flash"];
 
 const allHeros=marvelHeroes.concat(dcHeroes); //concat does not modify the original array but returns a new array
 
- console.log(allHeros); //["Ironman", "Captain America", "Thor", "Hulk", "Black Widow", ["Superman", "Batman", "Flash"]]
+ //console.log(allHeros); //["Ironman", "Captain America", "Thor", "Hulk", "Black Widow", ["Superman", "Batman", "Flash"]]
 
-
+const all_new_heros = [...marvelHeroes, ...dcHeroes];
+console.log(all_new_heros);
  
+
 
 
  
