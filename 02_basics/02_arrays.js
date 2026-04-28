@@ -28,8 +28,11 @@ const real_another_array = another_array.flat(Infinity);
 
  console.log((Array.from({name:"Sahab"}))); //this will give empty array because we have to tell to make array of keys or values // interesting fo interviews
  
- 
-  
+
+ let score1 = 100
+ let score2 = 200
+ let score3 = 300
+
+ console.log(Array.of(score1, score2, score3));
  
 
- 
