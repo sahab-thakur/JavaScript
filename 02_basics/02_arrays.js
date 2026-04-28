@@ -22,4 +22,11 @@ const real_another_array = another_array.flat(Infinity);
 
 
 
+
+ console.log(Array.isArray("Sahab"));
+ console.log(Array.from("Sahab"));
+ 
+  
+ 
+
  
